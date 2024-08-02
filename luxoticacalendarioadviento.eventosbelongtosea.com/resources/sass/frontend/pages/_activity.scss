@@ -1,0 +1,128 @@
+.activity-name {
+    top:30%;
+    left: 20%;
+    position: absolute;
+}
+.activity-name-txt-img {
+    font-family: "Recoleta", sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 3vw;
+    max-width: 70vw;
+
+}
+
+.activity-category-name-txt {
+    font-family: "Recoleta", sans-serif !important;
+    color: $gold !important;
+    font-weight: 500 !important;
+    font-size: 3em !important;
+}
+
+.activity-name-txt h2{
+    font-family: "Recoleta", sans-serif !important;
+    color: $primary !important;
+    font-weight: 500 !important;
+    font-size: 3em !important;
+}
+
+.activity-page-container h2 {
+    font-family: "Recoleta", sans-serif;
+    font-size: 2em;
+    color: $primary;
+    font-weight: 300;
+}
+
+.activity-title {
+
+}
+
+.activity-title-title {
+    font-family: "Recoleta", sans-serif;
+    font-size: 4em;
+    color: $primary;
+    font-weight: 300;
+    line-height: 0.8;
+}
+
+.activity-title-category-icon{
+    width: auto;
+    height: 250px;
+}
+
+.activity-title-text {
+    width: 60%;
+
+}
+.activity-title-name {
+    color:#000;
+}
+
+.activity-title-container {
+    display: flex;
+}
+
+.activity-individual-section {
+    background-color: #f8f8f8
+}
+
+.activity-user-challenges-section{
+    padding-top: 50px;
+}
+
+.activity-response-btn-card {
+    width: 125px;
+    height: 125px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.activity-response-btn-card-individual {
+    background-color: #fff;
+}
+
+.activity-response-btn-card-collective {
+    background-color: #f8f8f8;
+}
+
+.activity-response-btn {
+    cursor: pointer;
+}
+
+.activity-response-btn-image {
+    width: 50px;
+    height: auto;
+}
+
+.activity-response-btn-text {
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.activity-response-btn-todo {
+    visibility: visible;
+}
+
+.activity-response-btn-done {
+    visibility: visible;
+    cursor: default;
+}
+
+.activity-response-btn-disabled {
+    visibility: visible;
+    cursor: default;
+}
+
+.activity-response-btn-disabled i{
+    color: red !important;
+}
+
+.activity-content {
+
+}

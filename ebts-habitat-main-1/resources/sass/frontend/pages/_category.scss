@@ -1,0 +1,47 @@
+.category-page-container h2 {
+    color: $primary;
+    font-family: "Recoleta", sans-serif;
+    font-weight: 300;
+}
+.category-title-title {
+    font-family: "Recoleta", sans-serif;
+    font-size: 4em;
+    color: $primary;
+    font-weight: 300;
+    line-height: 0.8;
+    padding-top: 0.5em;
+}
+
+.category-title-img-circle {
+    background-color: $primary;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -60px;
+    left: -100px;
+    z-index: -1;
+}
+
+.category-title-img-text {
+    width: 60%;
+
+}
+.category-title-name {
+    color:#000;
+}
+
+.category-title-img-container {
+    display: flex;
+    //justify-content: center;
+}
+
+.category-title-img {
+    padding: 5%;
+}
+
+.category-content {
+
+}
+
+

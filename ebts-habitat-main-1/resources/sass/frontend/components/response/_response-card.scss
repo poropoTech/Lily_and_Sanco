@@ -1,0 +1,78 @@
+.response-card {
+    padding: 5px;
+    width: 350px;
+    border: 1px solid #dbdbdb;
+    text-align: left;
+    border-radius: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.response-card-self {
+    background-color: #EBF2F3;
+    border-color: #000000;
+}
+
+.response-card-author-alias {
+    font-family: "Karla", sans-serif;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.response-card-image-container-img {
+    width: 100%;
+}
+
+.response-card-image-container-avatar {
+    height: 253px;
+    border-radius: 50%;
+}
+
+.response-card-image-container-icon {
+    color: $primary;
+    left: 10px;
+    top: 10px;
+    position: relative;
+    width: 0;
+}
+
+.response-card-embed-container {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+.response-card-embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.response-card-author-image {
+    border-radius: 50%;
+    max-height: 40px;
+}
+.response-card-category-icon {
+    width: 30px;
+    height: 100%;
+}
+
+.response-card-actions {
+    color: #bababa !important;
+}
+
+.response-card-text {
+    font-size: x-small;
+}
+
+.response-card-text-like {
+    padding-bottom: 5px;
+}
+
+.response-card-text-bar {
+    font-size: 12px;
+    line-height: 1.3;
+}

@@ -1,0 +1,45 @@
+
+@import "../global";
+
+@import 'fonts';
+
+
+// Variables
+@import 'variables';
+
+@import "~cropperjs/dist/cropper.css";
+@import "~emojionearea/dist/emojionearea.css";
+
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~@coreui/icons/css/free.min.css';
+@import "~bootstrap4-toggle/css/bootstrap4-toggle.min.css";
+@import "~bootstrap-select/dist/css/bootstrap-select.min.css";
+@import "~@loadingio/loading-bar/dist/loading-bar.css";
+@import "~animate.css/animate.css";
+@import "~flag-icons/css/flag-icons.min.css";
+
+
+@import 'frontend_test';
+
+@import "global";
+@import 'common/navbar';
+@import 'common/footer';
+@import 'auth/auth';
+@import 'pages/main';
+@import 'pages/category';
+@import 'pages/activity';
+@import 'pages/wall';
+@import 'pages/knowmore';
+@import 'user/challenges';
+@import 'components/category/category-card';
+@import 'components/activity/activity-card';
+@import 'components/response/response-card';
+@import 'components/response/response-new-modal';
+@import 'components/response/response-comments';
+@import 'components/progress/progress-card';
+@import 'components/utils/infinite-scroll-status';
+@import 'components/user/challenges/category-card';
+
+

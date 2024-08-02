@@ -1,0 +1,31 @@
+.c-sidebar-nav-dropdown {
+    background-color: #fff;
+}
+
+.c-sidebar.c-sidebar-light {
+    background-color: #fff;
+}
+
+.c-sidebar-nav-dropdown-toggle {
+    font-weight: bold;
+    font-size: large;
+}
+
+.c-sidebar.c-sidebar-light .c-sidebar-nav-link.c-active {
+    color: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.1)
+}
+
+.c-sidebar.c-sidebar-light .c-sidebar-brand {
+    background-color: #fff;
+}
+
+.breadcrumb {
+    background-color: #fff;
+}
+
+.user-profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}

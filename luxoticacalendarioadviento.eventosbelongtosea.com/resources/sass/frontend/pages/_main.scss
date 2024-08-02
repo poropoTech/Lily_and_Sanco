@@ -1,0 +1,151 @@
+
+.main-section {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.main-section p {
+    color: rgba(60, 60, 60, 1);
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: small;
+}
+
+.main-section-title {
+    color: rgba(60, 60, 60, 1);
+    margin-bottom: 50px;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+    font-size: x-small;
+    text-decoration: underline #ae8000ff;
+}
+
+.main-presentation-section {
+    padding-top: 1em;
+}
+
+.main-presentation-section h1 {
+    color: $primary;
+    font-size: 4.5em;
+    font-family: "Recoleta", sans-serif;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.main-presentation-section h2 {
+    color: $primary-b;
+    font-size: 1.5em;
+    font-family: "Recoleta", sans-serif;
+    font-weight: 400;
+}
+
+.main-presentation-img-container {
+    position: relative;
+    width: 100%;
+    top: 0;
+}
+
+.main-categories-section {
+    background-color: #F8F8F8;
+}
+
+.main-categories-section h2 {
+    color: $primary;
+    font-size: 3em;
+    font-family: "Recoleta", sans-serif;
+    font-weight: 400;
+}
+
+.main-wall-section {
+    //height: 750px;
+}
+
+.main-progress-section {
+    background-color: #e2e8e7ff;
+    margin-top: 5em;
+
+}
+
+.main-progress-section h2 {
+    color: $primary;
+    font-size: 3em;
+    font-family: "Recoleta", sans-serif;
+    font-weight: 400;
+}
+
+.main-progress-percent {
+    color: #ae8000ff;
+    font-size: 10em;
+    font-family: "Recoleta Thin", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1;
+}
+.main-progress-img-animation-0 {
+    animation: heartbeat 5s infinite;
+}
+
+.main-progress-img-animation-1 {
+    animation: heartbeat 4s infinite;
+}
+
+.main-progress-img-animation-2 {
+    animation: heartbeat 3s infinite;
+}
+
+.main-progress-img-animation-3 {
+    animation: heartbeat 2s infinite;
+}
+
+.main-progress-img-animation-4 {
+    animation: heartbeat 0.5s infinite;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: rotate(15deg);
+    }
+    50% {
+        transform: rotate(-15deg);
+    }
+    100% {
+        transform: rotate(15deg);
+    }
+}
+
+.main-progress-img-container {
+    align-self: center;
+}
+.main-progress-img {
+    width: 500px;
+}
+
+.main-progress-img-bar .ldBar {
+    width:100%;
+    height:350px;
+}
+
+.main-progress-img-bar .ldBar-label {
+    display: none;
+}
+
+.carousel {
+    text-align: center;
+    min-height: 300px
+}
+
+.carousel-inner {
+overflow: visible;
+}
+
+.carousel-inner-overflow {
+    overflow: hidden;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    top: 20px;
+    width: 10%;
+    height: 100px;
+    background-color: #b3b2b0;
+    border-radius: 10px;
+}

@@ -1,0 +1,40 @@
+.footer {
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer2 {
+    background-color: $primary;
+}
+
+.footer-logo-container {
+
+}
+
+.footer-logo-img {
+    width: 100px;
+}
+
+.footer-logo-text {
+    width: 150px;
+    padding-left: 20px;
+    line-height: 1;
+    font-size: small;
+}
+
+.footer-links {
+    font-size: x-small;
+    font-weight: bold;
+    height: 60px;
+    width: 100px;
+}
+
+.footer-links-list {
+    list-style-type: none;
+}
+
+.footer-copyright {
+    color: #ffffff;
+    font-size: x-small;
+}

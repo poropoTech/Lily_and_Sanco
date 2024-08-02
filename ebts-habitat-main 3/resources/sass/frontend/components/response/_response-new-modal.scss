@@ -1,0 +1,7 @@
+#response-new-modal .image-selector-delete {
+    visibility: hidden;
+}
+
+.custom-file-input ~ .custom-file-label::after {
+    content: "...";
+}

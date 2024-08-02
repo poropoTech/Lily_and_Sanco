@@ -1,0 +1,31 @@
+.response-comment-inline-comments {
+    font-size: xx-small;
+    overflow: hidden;
+    max-height: 120px;
+    padding-left: 10px;
+}
+
+.response-comment-modal {
+    height: 100%;
+}
+
+.response-comment-modal-form-comments {
+    padding: 10px;
+    border: 1px solid #DDD;
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.response-comment-text {
+    font-size: small;
+}
+
+.emojionearea, .emojionearea.form-control {
+    border: 1px solid #dadada;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    transition: none;
+    box-shadow: none;
+}

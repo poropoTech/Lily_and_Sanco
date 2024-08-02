@@ -1,0 +1,45 @@
+.navbar-nav {
+    font-family: "Karla", sans-serif;
+    font-size: x-small;
+    font-weight: bold;
+    max-width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.navbar-nav-logo {
+    width: 100px;
+}
+
+.navbar-nav-link {
+    transition: all 0.8s;
+}
+
+.navbar .container {
+    width: 100%;
+}
+
+.dropdown-item {
+    font-family: "Karla", sans-serif;
+    font-size: x-small;
+}
+.dropdown-item:hover{
+    box-shadow: 0 1px $primary;
+    background-color: inherit;
+    color: inherit;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+
+    box-shadow: 0 1px $primary;
+}
+
+.navbar-light .navbar-nav .nav-link-active{
+
+    box-shadow: 0 1px $primary;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    margin-right: 1.5rem;
+    color: rgba(60, 60, 60, 1);
+}

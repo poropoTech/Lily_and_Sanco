@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jqCron</title>
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/backend.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+
+            <div class="example1"></div>
+            <input class="form-control input-cron" name="app_notifications_incomplete-activities-cron" value="1 6 * * *"/>
+        </div>
+    </div>
+<!--    <script src="js/manifest.js"></script>-->
+<!--    <script src="js/vendor.js"></script>-->
+<!--    <script src="js/backend.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="js/vendor/jqcron/jqCron.js"></script>
+    <script src="js/vendor/jqcron/jqCron.en.js"></script>
+    <script type="text/javascript">
+        var rxhtmlTag = /<(?!area|br|col|embed|hr|img|input|link|meta|param)(([a-z][^\/\0>\x20\t\r\n\f]*)[^>]*)\/>/gi;
+        jQuery.htmlPrefilter = function( html ) {
+            return html.replace( rxhtmlTag, "<$1></$2>" );
+        };
+        $(function(){
+            $('.input-cron').jqCron();
+        });
+
+    </script>
+</div>
+</body>
+</html>

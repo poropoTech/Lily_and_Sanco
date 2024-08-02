@@ -1,0 +1,76 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: local('Myriad Pro Regular'), local('Myriad-Pro-Regular'),
+    url('../assets/fonts/MyriadPro-Regular.woff2') format('woff2'),
+    url('../assets/fonts/MyriadPro-Regular.woff') format('woff'),
+    url('../assets/fonts/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: local('Karla Regular'), local('Karla-Regular'),
+    url('../assets/fonts/Karla-Regular.woff2') format('woff2'),
+    url('../assets/fonts/Karla-Regular.woff') format('woff'),
+    url('../assets/fonts/Karla-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: local('Karla Bold'), local('Karla-Bold'),
+    url('../assets/fonts/Karla-Bold.woff2') format('woff2'),
+    url('../assets/fonts/Karla-Bold.woff') format('woff'),
+    url('../assets/fonts/Karla-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: local('Recoleta Light'), local('Recoleta-Light'),
+    url('../assets/fonts/Recoleta-Light.woff2') format('woff2'),
+    url('../assets/fonts/Recoleta-Light.woff') format('woff'),
+    url('../assets/fonts/Recoleta-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: local('Recoleta Medium'), local('Recoleta-Medium'),
+    url('../assets/fonts/Recoleta-Medium.woff2') format('woff2'),
+    url('../assets/fonts/Recoleta-Medium.woff') format('woff'),
+    url('../assets/fonts/Recoleta-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: local('Recoleta Regular'), local('Recoleta-Regular'),
+    url('../assets/fonts/Recoleta-Regular.woff2') format('woff2'),
+    url('../assets/fonts/Recoleta-Regular.woff') format('woff'),
+    url('../assets/fonts/Recoleta-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: local('Recoleta Thin'), local('Recoleta-Thin'),
+    url('../assets/fonts/Recoleta-Thin.woff2') format('woff2'),
+    url('../assets/fonts/Recoleta-Thin.woff') format('woff'),
+    url('../assets/fonts/Recoleta-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}

@@ -1,0 +1,60 @@
+.category-card {
+    width: 225px;
+    height: 300px;
+    background-color: #fff;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    overflow-x: visible;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.category-card-disabled {
+    opacity: 0.5;
+    pointer-events:none;
+}
+
+.category-card-name {
+    font-family: "Recoleta Medium", sans-serif;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.category-card-description {
+    line-height: 1.4em;
+    font-family: "Karla", sans-serif;
+    font-weight: 300;
+    font-size: small;
+    padding: 10px;
+}
+.category-card:hover{
+    background-color: #ddd;
+}
+
+.category-card-image{
+    width: auto;
+    height: 125px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.category-card-icon-container{
+    position: relative;
+    top: -10px;
+    left: -30px;
+    width: 0;
+    height: 0;
+}
+
+.category-card-icon-container .badge{
+    color: #ffffff;
+    background-color: $primary;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}

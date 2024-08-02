@@ -1,0 +1,89 @@
+
+.activity-card {
+    min-height: 250px;
+    //max-height: 450px;
+    margin: 1em;
+    padding: 1em;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.activity-card-disabled {
+    opacity: 0.5;
+    pointer-events:none;
+}
+
+.activity-card-title {
+    color: $primary;
+    font-family: "Recoleta", sans-serif;
+    font-weight: 500;
+}
+.activity-card-content {
+    font-family: "Karla", sans-serif;
+    overflow: hidden;
+    //max-height: 250px;
+}
+
+.activity-card-image{
+    width: 100%;
+    height: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 400px;
+    visibility: hidden;
+}
+
+.activity-card-main {
+    visibility: hidden;
+}
+
+.activity-card-separator {
+    height: 2px;
+    width: 100%;
+    background-color: #dbdbdb;
+    margin-top: 50px;
+}
+
+.activity-card-response-bar {
+    margin-top: 2em;
+}
+
+.activity-card-response-btn-todo {
+    //visibility: visible;
+}
+
+.activity-card-response-btn-done {
+    visibility: visible;
+    background-color: #1b9e2e !important;
+}
+
+.activity-card-response-btn-disabled {
+    visibility: visible;
+    background-color: #9E4A41 !important;
+}
+
+
+.activity-card-info-bar {
+    position: sticky;
+    top: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.activity-card-info-bar .badge{
+    color: #ffffff;
+    background-color: $primary;
+}
+
+.activity-card-info-bar-item {
+   color: $primary;
+}
+
+.activity-card-admin-bar {
+    position: sticky;
+    top: 100%;
+    text-align: right;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+

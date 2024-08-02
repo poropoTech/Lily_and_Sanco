@@ -1,0 +1,19 @@
+@import "../global";
+
+@import 'variables';
+@import "~cropperjs/dist/cropper.css";
+@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap-datepicker/dist/css/bootstrap-datepicker3.css";
+@import "~bootstrap-select/dist/css/bootstrap-select.min.css";
+@import "~flag-icons/css/flag-icons.min.css";
+
+@import "../vendor/jqcron/jqCron.css";
+
+
+
+// Coreui
+@import '~@coreui/coreui/scss/coreui';
+@import '~@coreui/icons/css/free.min.css';
+
+
+@import 'backend_test';

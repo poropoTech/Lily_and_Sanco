@@ -1,0 +1,43 @@
+.challenges-category-card {
+    width: 225px;
+    background-color: #fff;
+    padding: 1em;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.challenges-category-card-disabled {
+    opacity: 0.5;
+    pointer-events:none;
+}
+
+.challenges-category-card-name {
+    font-family: "Recoleta Medium", sans-serif;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.challenges-category-card:hover{
+    background-color: #ddd;
+}
+
+.challenges-category-card-image{
+    width: auto;
+    height: 125px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.challenges-category-card .ldBar path.mainline {
+    stroke-width: 10;
+    stroke: $primary;
+    stroke-linecap: round;
+}
+.challenges-category-card .ldBar path.baseline {
+    stroke-width: 14;
+    stroke: #f1f2f3;
+    stroke-linecap: round;
+}
