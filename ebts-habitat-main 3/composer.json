@@ -9,7 +9,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^8.1",
+        "php": "^7.4",
         "ext-fileinfo": "*",
         "ext-zip": "*",
         "ext-ftp": "*",
@@ -17,7 +17,7 @@
         "ext-mbstring": "*",
         "ext-intl": "*",
         "arcanedev/log-viewer": "8.x",
-        "darkghosthunter/laraguard": "dev-master",
+        "darkghosthunter/laraguard": "^3.0",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
@@ -53,7 +53,10 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
     },
     "extra": {
         "laravel": {
