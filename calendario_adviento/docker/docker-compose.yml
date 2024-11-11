@@ -1,0 +1,34 @@
+# docker/docker-compose.yml
+
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: calendario_adviento-app
+    container_name: calendario_adviento_app
+    restart: unless-stopped
+    working_dir: /var/www
+    volumes:
+      - ../:/var/www
+      - ./php.ini:/usr/local/etc/php/php.ini
+    networks:
+      - laravel-network
+
+  webserver:
+    image: nginx:alpine
+    container_name: calendario_adviento_webserver
+    restart: unless-stopped
+    ports:
+      - "8000:80"
+    volumes:
+      - ../:/var/www
+      - ./nginx/conf.d:/etc/nginx/conf.d
+    networks:
+      - laravel-network
+    depends_on:
+      - app
+
+networks:
+  laravel-network:
+    driver: bridge
